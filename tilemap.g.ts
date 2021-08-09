@@ -6,7 +6,7 @@ namespace myTiles {
     helpers._registerFactory("tilemap", function(name: string) {
         switch(helpers.stringTrim(name)) {
             case "level1":
-            case "level1":return tiles.createTilemap(hex`0a0008000101010101010101010101020102020202020201010202020202020101010102020202020202020101020202020202020201010201010102020202010102020202020202020101010101010101010101`, img`
+            case "level1":return tiles.createTilemap(hex`0a0008000202020202020202020202010201010101010102020101010101010202020201010101010101010202010101010101010102020102020201010101020201010101010101010202020202020202020202`, img`
 2 2 2 2 2 2 2 2 2 2 
 2 . 2 . . . . . . 2 
 2 . . . . . . 2 2 2 
@@ -15,7 +15,7 @@ namespace myTiles {
 2 . 2 2 2 . . . . 2 
 2 . . . . . . . . 2 
 2 2 2 2 2 2 2 2 2 2 
-`, [myTiles.transparency16,sprites.swamp.swampTile9,sprites.skillmap.islandTile1], TileScale.Sixteen);
+`, [myTiles.transparency16,sprites.skillmap.islandTile1,sprites.castle.tileDarkGrass2], TileScale.Sixteen);
         }
         return null;
     })
