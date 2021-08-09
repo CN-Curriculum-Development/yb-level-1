@@ -11,7 +11,7 @@
         "tileset": [
             "myTiles.transparency16",
             "sprites.skillmap.islandTile1",
-            "sprites.castle.tileDarkGrass1"
+            "sprites.castle.tileDarkGrass2"
         ],
         "displayName": "level1"
     },

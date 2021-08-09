@@ -15,7 +15,7 @@ namespace myTiles {
 2 . 2 2 2 . . . . 2 
 2 . . . . . . . . 2 
 2 2 2 2 2 2 2 2 2 2 
-`, [myTiles.transparency16,sprites.skillmap.islandTile1,sprites.castle.tileDarkGrass1], TileScale.Sixteen);
+`, [myTiles.transparency16,sprites.skillmap.islandTile1,sprites.castle.tileDarkGrass2], TileScale.Sixteen);
         }
         return null;
     })
